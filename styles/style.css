@@ -1,0 +1,518 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Inter, Roboto Slab, sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+
+/* Navigation Bar*/
+.navbar-nav a {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.navbar-nav a:hover {
+    color: #e94154;
+}
+
+
+
+/* Navigation Bar end*/
+
+
+/*Hackathon info */
+.about-hackathon {
+    padding: 40px 135px;
+}
+
+.paragraph1, 
+.paragraph2, 
+.paragraph3, 
+.paragraphs,
+.hackathon-heading {
+    text-align: center;
+}
+
+.recent-hackathon h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.hackathon-heading {
+    font-weight: bold;
+}
+
+.paragraphs p .bold {
+    font-weight: bold;
+}
+
+.paragraphs {
+    padding: 20px 0;
+}
+
+.paragraphs button {
+    font-weight: bold;
+    color: white;
+    border: 1px solid #e94154;
+    background-color: #e94154;
+    width: 130px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.paragraphs button:hover {
+    color: #e94154;
+    background-color: #e94154;
+}
+/*Hackathon info end*/
+
+
+/*Winner Gallery*/
+.img-container .gray-background {
+    background-color: #e9ecef;
+    padding: 10px;
+}
+
+.img-container .year {
+    font-size: 18px;
+    font-weight: bold;
+}
+/*Winner Gallery end*/
+
+
+
+/*Image Overlay*/
+.students-container {
+    position: relative;
+    width: 100%;
+    height: auto; 
+}
+
+.students-container img {
+    width: 100%;
+    height: 350px; 
+    object-fit: cover;
+    display: block; 
+}
+
+.about-impact {
+    position: absolute;
+    bottom: 10%; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.about-impact h2 {
+    font-size: 2rem; 
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.about-impact p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.donate-btn {
+    margin-top: 20px; 
+}
+
+.donate-btn button {
+    width: 150px;
+    height: 40px; 
+    color: #e94154;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.donate-btn button:hover {
+    color: white;
+    background-color: #e94154;
+}
+/*Image Overlay end*/
+
+
+/*Footer*/
+.footer-container {
+    background-color: rgb(233, 65, 84);
+    color: #ffffff;
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer-container .logo {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+  }
+  .footer-container .logo .future {
+    color: #ffffff;
+    width: 400px;
+  }
+  
+  .footer-container .logo img {
+    max-width: 150px;
+  }
+  .footer-container .logo p {
+    margin-top: 10px;
+  }
+  .footer-section {
+    padding-left: 15px;
+    margin: 0 10px;
+    margin-top: 20px;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-container .company {
+    padding-left: 60px;
+  }
+  
+  .footer-section h4 {
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  .footer-section ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  .footer-section.links ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  .footer-section.links ul li {
+    margin: 0 10px;
+  }
+  .footer-section.links ul li a {
+    color: #ffffff;
+    font-size: 1.5em;
+    transition: color 0.3s;
+  }
+  .footer-section.links ul li a:hover {
+    color: rgb(233, 65, 84);
+  }
+  .footer-section.links button {
+    font-weight: bold;
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(233, 65, 84);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  }
+  .footer-section.links button:hover {
+    background-color: rgb(233, 65, 84);
+    color: #ffffff;
+    border: 1px solid #000000;
+  }
+  @media (min-width: 768px) {
+    .footer-container {
+      flex-wrap: nowrap;
+      text-align: left;
+    }
+    .footer-container .logo {
+      flex: 1;
+      align-items: flex-start;
+      text-align: left;
+    }
+    .footer-section {
+      flex: 1;
+      margin-top: 0;
+    }
+    .footer-section.links {
+      flex: 1;
+      text-align: center;
+    }
+    .footer-container .company {
+      padding-left: 0;
+    }
+  }
+/*Footer end*/
+
+
+/*Contact Us Page*/
+/*Header*/
+.header-img {
+    position: relative;
+    width: 100%;
+    height: 290px;
+    padding-bottom: 50px;
+}
+
+.header-img .overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9415480; 
+}
+
+.header-img img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header-img .content {
+    position: relative;
+    text-align: center;
+    color: #fff; 
+    padding: 20px;
+}
+
+.header-img h1 {
+    font-size: 4em;
+    margin: 0.5em 0;
+    font-weight: bold;
+}
+
+.header-img p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+/*Header end*/
+
+
+/*Columns*/
+.grid {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.grid .g-col-4 {
+    min-width: 200px; 
+    padding: 20px; 
+    border: 3px solid #ddd;
+    border-radius: 6px;
+    margin: 0;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.grid .heading {
+    font-size: 1.5em;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.grid-container button {
+    color: #fff;
+    background-color: #e94154;
+    border: 1px solid #e94154;
+    border-radius: 4px;
+    padding: 5px 8px;
+    margin-top: 20px;
+}
+
+.grid-container button:hover {
+    color: #e94154;
+}
+
+hr {
+    border: 2px solid #c6c4c4;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+}
+/*Columns end*/
+
+
+/*Location*/
+.headquaters .address ul li i {
+    background-color: #ddd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 6px;
+}
+
+.headquaters .address ul li {
+    list-style: none;
+    padding: 4.5px;
+}
+
+.headquaters .address ul li .text {
+    padding-left: 10px;
+}
+
+.headquaters .address ul li .location {
+    padding-left: 50px;
+}
+
+.headquaters {
+    display: flex;
+    padding: 80px;
+}
+
+.headquaters h2,
+.headquaters h3 {
+    font-weight: bold;
+}
+
+.headquaters .map {
+    padding-left: 380px;
+}
+/*Location end*/
+
+
+/*Form*/
+form .form-control {
+    border: 1px solid black;
+}
+
+form h1,
+form p {
+    text-align: center;
+}
+
+form h1 {
+    font-weight: 600px;
+}
+
+form p {
+    opacity: 80%;
+}
+
+.form-container {
+    width: 40%;
+    margin: auto;
+    background-color: rgba(245,245,245,255);
+    padding: 20px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+label {
+    font-size: 0.8rem;
+}
+
+.button {
+    background-color: rgba(237,237,237,255);
+    height: 80px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.btn-container {
+    padding-bottom: 60px;
+}
+
+.button button {
+    color: #fff;
+    background-color: #e94154;
+    border: 1px solid #e94154;
+    border-radius: 4px;
+    margin-top: 22px;
+    font-weight: bold;
+    padding: 6px;
+}
+
+.button button:hover {
+    color: #e94154;
+}
+/*Form end*/
+
+
+
+/*Responsiveness*/
+@media (max-width: 768px) {
+    .navbar .logo {
+        width: 20px;
+    }
+
+    .about-hackathon {
+        padding: 40px 60px;
+    }
+
+    .about-impact h2 {
+        font-size: 1rem;
+    }
+
+    .about-impact p {
+        font-size: 0.8rem;
+    }
+
+    .footer-container .company {
+        padding-left: 150px;
+    }
+
+    .img-container .gray-background {
+        background-color: white;
+    }
+
+    .about-impact {
+        padding: 0;
+    }
+
+
+    /*Contact Us Page*/
+
+    .headquaters .map {
+        padding: 0;
+    }
+
+    .headquaters {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 884px) {
+    .headquaters .map {
+        padding: 0;
+    }
+
+    .headquaters {
+        flex-wrap: wrap;
+    }
+
+    .img-container .gray-background {
+        background-color: white;
+    }
+}
