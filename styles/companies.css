@@ -1,0 +1,394 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+/* Navbar */
+.navbar-nav a {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.navbar-nav a:hover {
+    color: #e94154;
+}
+
+/* Footer */
+.footer-container {
+    background-color: rgb(233, 65, 84);
+    color: white;
+    padding: 30px;
+}
+
+
+.footer-container .footer-about img {
+    width: 150px;
+    
+}
+
+  
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    padding-top: 20px;
+    font-weight: bold;
+}
+  
+.footer-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+  
+.footer-section li {
+    margin-bottom: 5px;
+}
+
+.footer-section.links ul {
+    display: flex;
+}
+
+.footer-section.links li {
+    margin-bottom: 0;
+    font-size: 1rem; 
+    padding-top: 20px;
+}
+
+.footer-section.links li i {
+    color: white;
+    margin-right: 20px;
+}  
+
+.footer-btn {
+    color: #e94154;
+    background-color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    padding: 8px 30px;
+    border-radius: 4px;
+}
+
+.footer-btn:hover {
+    color: white;
+    background-color: #e94154;
+    border: 1px solid black;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    gap: 6px;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change to your desired hover color */
+}
+
+/* hero */
+.hero-container {
+    background-image: url(../images/Girlcode-Saturday-74-min-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 400px;;
+}
+
+.hero{
+    background-color: rgba(216, 147, 175, 0.4);
+    height: 100%;
+}
+
+.hero-content{
+    padding: 50px;
+    align-items: baseline;
+}
+
+.hero-content h1{
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.hero-content p{
+    font-size: 1.2rem;
+}
+  
+
+/* Become a partner */
+.partner-section {
+    
+    background-color: #ddd;
+    padding: 40px ;
+    
+}
+
+.partner-cards-section{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section-title{
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 2.3rem;
+    opacity: 0.8;
+}
+
+.partner-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.partner-card img {
+    width: 100%;
+    height: 330px;
+    padding-left: -5px;
+    padding-right: -5px;
+}
+
+.partner-card h3 {
+    background-color: #e74c3c;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.partner-card p {
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Partner logos */
+.partner-logos{
+    text-align: center;
+    padding: 30px;
+}
+
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.logo-container img {
+    margin: 0px 50px;
+    max-width: 120px;
+}
+
+/* doners section*/
+.donors-section{
+    background-color: #ddd;
+    padding: 40px 20px;
+}
+
+.donors {
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+.donor-logos{
+    display: flex;
+    justify-content: center;
+}
+
+.donor-logos img {
+    width: 160px;
+    margin: 0px 30px;
+}
+
+/* media partners */
+.media-partners{
+text-align: center;
+margin-bottom: 30px;
+}
+
+
+.testimonials-section{
+    background-color: #ddd;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    background-color: #ffffffee;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 60%;
+    text-align: center;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.testimonial h3 {
+    margin: 10px 0 5px;
+    color: #f067a4;
+}
+
+.testimonial p {
+    margin: 5px 0;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.carousel-controls {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.carousel-controls .prev, .carousel-controls .next {
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.carousel-controls .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.carousel-controls .dot.active {
+    background-color: #f067a4;
+}
+
+
+.form-section {
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto ;
+    display: flex;
+    justify-content: center;
+}
+
+
+.form-section-form {
+    background-color: #e0e0e0;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+    margin: 0 0 10px;
+}
+
+.form-section p {
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-section label {
+    margin: 10px 0 5px;
+    width: 100%;
+    text-align: left;
+}
+
+.form-section input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-section button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff5757;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form-section button:hover {
+    background-color: #e04e4e;
+}
+
+/* Programs page starts here */
+
+/* club info */
+
+.club-info-container {
+    background-color: #ffc0cb;
+    padding: 40px;
+
+}
+
+.program-info-container {
+    /*max-width: 1200px;*/
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* .table-container{
+    width: 35%;
+} */
+
+.table {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+
+.table p{
+    text-align: left;
+    padding: 0 20px;
+    
+}
+/*
+.program-info-container .program-info-content {
+    /* margin: 0px 30px; 
+    width: 55%;
+} */
